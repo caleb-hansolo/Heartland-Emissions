@@ -9,6 +9,7 @@
 
 ### Made Possible By
 [**ChartsCSS**](https://github.com/ChartsCSS/charts.css) - Library used for making custom charts and graphs in CSS <br/>
+[**US Energy Information Administration**](https://www.eia.gov/environment/emissions/state/) - Provided the dataset used in this website (see Nebraska spreadsheet from link) <br/>
 
 ### Contributors
 [**caleb-hansolo**](https://github.com/caleb-hansolo) - code, video, and script
