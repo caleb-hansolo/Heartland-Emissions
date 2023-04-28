@@ -14,108 +14,269 @@
 <body>
     <h1> Heartland Emissions: Nebraska's Carbon Footprint </h1>
     <br>
+    <h2>Over the past 30 years, Nebraska’s annual carbon dioxide emissions have increased substantially, growing by over <ins style="color: #AA4499;">20 million metric tons</ins> from 1990 to 2020.</h2>
+    <br>
+    <h3>Here's what the numbers mean</h3>
+    <br>
+    <br>
 
-    <table class="charts-css line show-heading" id="total-emissions">
+    <!-- Years dataset (1990-2020) -->
+    <!--
+    <table class="charts-css hide-data" id="year">
 
-        <caption style="color: #DDCC77;"> Total Emissions from 1990 to 2020, in millions of metric tons of CO2 </caption>
+        <caption> Front End Developer Salary </caption>
+      
+        <tbody>
+          <tr>
+            <td> <span class="data"> 1990 </span> </td>
+          </tr>
+          <tr>
+            <td> <span class="data"> 1991 </span> </td>
+          </tr>
+          <tr>
+            <td> <span class="data"> 1992 </span> </td>
+          </tr>
+          <tr>
+            <td> <span class="data"> 1993 </span> </td>
+          </tr>
+          <tr>
+            <td> <span class="data"> 1994 </span> </td>
+          </tr>
+          <tr>
+            <td> <span class="data"> 1995 </span> </td>
+          </tr>
+          <tr>
+            <td> <span class="data"> 1996 </span> </td>
+          </tr>
+          <tr>
+            <td> <span class="data"> 1997 </span> </td>
+          </tr>
+          <tr>
+            <td> <span class="data"> 1998 </span> </td>
+          </tr>
+          <tr>
+            <td> <span class="data"> 1999 </span> </td>
+          </tr>
+          <tr>
+            <td> <span class="data"> 2000 </span> </td>
+          </tr>
+          <tr>
+            <td> <span class="data"> 2001 </span> </td>
+          </tr>
+          <tr>
+            <td> <span class="data"> 2002 </span> </td>
+          </tr>
+          <tr>
+            <td> <span class="data"> 2003 </span> </td>
+          </tr>
+          <tr>
+            <td> <span class="data"> 2004 </span> </td>
+          </tr>
+          <tr>
+            <td> <span class="data"> 2005 </span> </td>
+          </tr>
+          <tr>
+            <td> <span class="data"> 2006 </span> </td>
+          </tr>
+          <tr>
+            <td> <span class="data"> 2007 </span> </td>
+          </tr>
+          <tr>
+            <td> <span class="data"> 2008 </span> </td>
+          </tr>
+          <tr>
+            <td> <span class="data"> 2009 </span> </td>
+          </tr>
+          <tr>
+            <td> <span class="data"> 2010 </span> </td>
+          </tr>
+          <tr>
+            <td> <span class="data"> 2011 </span> </td>
+          </tr>
+          <tr>
+            <td> <span class="data"> 2012 </span> </td>
+          </tr>
+          <tr>
+            <td> <span class="data"> 2013 </span> </td>
+          </tr>
+          <tr>
+            <td> <span class="data"> 2014 </span> </td>
+          </tr>
+          <tr>
+            <td> <span class="data"> 2015 </span> </td>
+          </tr>
+          <tr>
+            <td> <span class="data"> 2016 </span> </td>
+          </tr>
+          <tr>
+            <td> <span class="data"> 2017 </span> </td>
+          </tr>
+          <tr>
+            <td> <span class="data"> 2018 </span> </td>
+          </tr>
+          <tr>
+            <td> <span class="data"> 2019 </span> </td>
+          </tr>
+          <tr>
+            <td> <span class="data"> 2020 </span> </td>
+          </tr>
+        </tbody>
+      
+    </table>
+    -->
+    <table class="charts-css line show-heading show-labels show-4-secondary-axes show-data-on-hover" id="total-emissions" alt="This is a table showing Nebraska's annual CO2 emissions from nineteen-ninety to twenty twenty.">
 
+        <caption> Total Emissions from 1990 to 2020, in millions of metric tons of CO2 </caption>
+        
+        <!--
+        <tr>
+            <th scope="row"> 1990 </th>
+            <td> 1990 </td>
+            <td> 1991 </td>
+            <td> 1992 </td>
+            <td> 1993 </td>
+            <td> 1994 </td>
+            <td> 1995 </td>
+            <td> 1996 </td>
+            <td> 1997 </td>
+            <td> 1998 </td>
+            <td> 1999 </td>
+            <td> 2000 </td>
+            <td> 2001 </td>
+            <td> 2002 </td>
+            <td> 2003 </td>
+            <td> 2004 </td>
+            <td> 2005 </td>
+            <td> 2006 </td>
+            <td> 2007 </td>
+            <td> 2008 </td>
+            <td> 2009 </td>
+            <td> 2010 </td>
+            <td> 2011 </td>
+            <td> 2012 </td>
+            <td> 2013 </td>
+            <td> 2014 </td>
+            <td> 2015 </td>
+            <td> 2016 </td>
+            <td> 2017 </td>
+            <td> 2018 </td>
+            <td> 2019 </td>
+            <td> 2020 </td>
+        </tr>
+        -->
+
+       
 
         <tbody id="total">
 
             <!-- 1990 to 1999 -->
+          
           <tr>
-            <td style="--start: 0.328; --size: 0.337"> <span class="data">  </span> </td>
+            <th scope="row"> 1990 </th>
+            <td style="--start: 0.328; --size: 0.337"> <span class="data"> 33.7 </span> </td>
           </tr>
           <tr>
-            <td style="--start: 0.337; --size: 0.326"> <span class="data">  </span> </td>
+            <td style="--start: 0.337; --size: 0.326"> <span class="data"> 32.6 </span> </td>
           </tr>
           <tr>
-            <td style="--start: 0.326; --size: 0.359"> <span class="data">  </span> </td>
+            <td style="--start: 0.326; --size: 0.359"> <span class="data"> 35.9 </span> </td>
           </tr>
           <tr>
-            <td style="--start: 0.359; --size: 0.358"> <span class="data">  </span> </td>
+            <td style="--start: 0.359; --size: 0.358"> <span class="data"> 35.8 </span> </td>
+          </tr>
+
+          <tr>
+            <th scope="row"> 1995 </th>
+            <td style="--start: 0.358; --size: 0.384"> <span class="data"> 38.4 </span> </td>
           </tr>
           <tr>
-            <td style="--start: 0.358; --size: 0.384"> <span class="data">  </span> </td>
+            <td style="--start: 0.384; --size: 0.396"> <span class="data"> 39.6 </span> </td>
           </tr>
           <tr>
-            <td style="--start: 0.384; --size: 0.396"> <span class="data">  </span> </td>
+            <td style="--start: 0.396; --size: 0.409"> <span class="data"> 40.9 </span> </td>
           </tr>
           <tr>
-            <td style="--start: 0.396; --size: 0.409"> <span class="data">  </span> </td>
+            <td style="--start: 0.409; --size: 0.429"> <span class="data"> 42.9 </span> </td>
           </tr>
           <tr>
-            <td style="--start: 0.409; --size: 0.429"> <span class="data">  </span> </td>
-          </tr>
-          <tr>
-            <td style="--start: 0.429; --size: 0.417"> <span class="data">  </span> </td>
+            <td style="--start: 0.429; --size: 0.417"> <span class="data"> 41.7 </span> </td>
           </tr>
 
             <!-- 2000 to 2009 -->
+          
           <tr>
-            <td style="--start: 0.417; --size: 0.417"> <span class="data">  </span> </td>
+            <th scope="row"> 2000 </th>
+            <td style="--start: 0.417; --size: 0.417"> <span class="data"> 41.7 </span> </td>
           </tr>
           <tr>
-            <td style="--start: 0.417; --size: 0.429"> <span class="data">  </span> </td>
+            <td style="--start: 0.417; --size: 0.429"> <span class="data"> 42.9 </span> </td>
           </tr>
           <tr>
-            <td style="--start: 0.429; --size: 0.423"> <span class="data">  </span> </td>
+            <td style="--start: 0.429; --size: 0.423"> <span class="data"> 42.3 </span> </td>
           </tr>
           <tr>
-            <td style="--start: 0.423; --size: 0.436"> <span class="data">  </span> </td>
+            <td style="--start: 0.423; --size: 0.436"> <span class="data"> 43.6 </span> </td>
           </tr>
           <tr>
-            <td style="--start: 0.436; --size: 0.434"> <span class="data">  </span> </td>
+            <td style="--start: 0.436; --size: 0.434"> <span class="data"> 43.4 </span> </td>
+          </tr>
+
+          <tr>
+            <th scope="row"> 2005 </th>
+            <td style="--start: 0.434; --size: 0.438"> <span class="data"> 43.8 </span> </td>
           </tr>
           <tr>
-            <td style="--start: 0.434; --size: 0.438"> <span class="data">  </span> </td>
+            <td style="--start: 0.438; --size: 0.443"> <span class="data"> 44.3 </span> </td>
           </tr>
           <tr>
-            <td style="--start: 0.438; --size: 0.443"> <span class="data">  </span> </td>
+            <td style="--start: 0.443; --size: 0.446"> <span class="data"> 44.6 </span> </td>
           </tr>
           <tr>
-            <td style="--start: 0.443; --size: 0.446"> <span class="data">  </span> </td>
+            <td style="--start: 0.446; --size: 0.466"> <span class="data"> 46.6 </span> </td>
           </tr>
           <tr>
-            <td style="--start: 0.446; --size: 0.466"> <span class="data">  </span> </td>
-          </tr>
-          <tr>
-            <td style="--start: 0.466; --size: 0.473"> <span class="data">  </span> </td>
+            <td style="--start: 0.466; --size: 0.473"> <span class="data"> 47.3 </span> </td>
           </tr>
 
             <!-- 2010 to 2020 -->
+          
           <tr>
-            <td style="--start: 0.473; --size: 0.500"> <span class="data">  </span> </td>
+            <th scope="row"> 2010 </th>
+            <td style="--start: 0.473; --size: 0.500"> <span class="data"> 50.0 </span> </td>
           </tr>
           <tr>
-            <td style="--start: 0.500; --size: 0.524"> <span class="data">  </span> </td>
+            <td style="--start: 0.500; --size: 0.524"> <span class="data"> 52.4 </span> </td>
           </tr>
           <tr>
-            <td style="--start: 0.524; --size: 0.506"> <span class="data">  </span> </td>
+            <td style="--start: 0.524; --size: 0.506"> <span class="data"> 50.6 </span> </td>
           </tr>
           <tr>
-            <td style="--start: 0.506; --size: 0.535"> <span class="data">  </span> </td>
+            <td style="--start: 0.506; --size: 0.535"> <span class="data"> 53.5 </span> </td>
           </tr>
           <tr>
-            <td style="--start: 0.535; --size: 0.522"> <span class="data">  </span> </td>
+            <td style="--start: 0.535; --size: 0.522"> <span class="data"> 52.2 </span> </td>
+          </tr>
+
+          <tr>
+            <th scope="row"> 2015 </th>
+            <td style="--start: 0.522; --size: 0.507"> <span class="data"> 50.7 </span> </td>
           </tr>
           <tr>
-            <td style="--start: 0.522; --size: 0.507"> <span class="data">  </span> </td>
+            <td style="--start: 0.507; --size: 0.484"> <span class="data"> 48.4 </span> </td>
           </tr>
           <tr>
-            <td style="--start: 0.507; --size: 0.484"> <span class="data">  </span> </td>
+            <td style="--start: 0.484; --size: 0.479"> <span class="data"> 47.9 </span> </td>
           </tr>
           <tr>
-            <td style="--start: 0.484; --size: 0.479"> <span class="data">  </span> </td>
+            <td style="--start: 0.479; --size: 0.524"> <span class="data"> 52.4 </span> </td>
           </tr>
           <tr>
-            <td style="--start: 0.479; --size: 0.524"> <span class="data">  </span> </td>
+            <td style="--start: 0.524; --size: 0.505"> <span class="data"> 50.5 </span> </td>
           </tr>
+
           <tr>
-            <td style="--start: 0.524; --size: 0.505"> <span class="data">  </span> </td>
-          </tr>
-          <tr>
-            <td style="--start: 0.505; --size: 0.465"> <span class="data">  </span> </td>
+            <th scope="row"> 2020 </th>
+            <td style="--start: 0.505; --size: 0.465"> <span class="data"> 46.5 </span> </td>
           </tr>
             
         </tbody>
