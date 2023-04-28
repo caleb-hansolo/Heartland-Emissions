@@ -1,10 +1,10 @@
-body{
+body {
     background-color: rgb(65, 59, 59);
     font-family:  "Roboto Slab", "consolas";
     margin: 0px;
 }
 
-h1{
+h1 {
     margin-right: auto;
     margin-left: auto;
 
@@ -26,12 +26,26 @@ h1{
     */
 }
 
-#total{
+h2 {
+    text-align: center;
+    color: #DDCC77;
+}
+h3 {
+    text-align: center;
+    color: #DDCC77;
+}
+
+caption {
+    color: #DDCC77;
+}
+
+#total {
     --color: #CC6677;
 }
 
 #total-emissions.line {
-    height: 200px;
-    max-width: 400px;
+    height: 550px;
+    max-width: 1100px;
     margin: 0 auto;
-  }
+    --labels-size: 2rem;
+}
