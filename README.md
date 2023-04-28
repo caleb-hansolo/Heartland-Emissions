@@ -1,7 +1,7 @@
 # Heartland-Emissions
 
 <p align="center">
-  <img src="flag-nebraska.jpg" height="400">
+  <img src="flag-nebraska.png" height="400">
 </p>
 
 ### Overview
